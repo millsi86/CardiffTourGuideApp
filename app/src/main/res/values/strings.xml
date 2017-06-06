@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CardiffTourGuideApp</string>
+    <string name="Travel_Fragment_Title">Travel</string>
+    <string name="StDavids_Fragment_Title">St Davids</string>
+    <string name="Bay_Fragment_Title">Cardiff Bay</string>
+    <string name="Castles_Fragment_Title">Castles</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_Travel">Hello Travel fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_StDavids">Hello St Davids fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_bay">Hello Bay fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_castles">Hello Castles fragment</string>
+</resources>
