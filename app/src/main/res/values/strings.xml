@@ -4,6 +4,35 @@
     <string name="StDavids_Fragment_Title">St Davids</string>
     <string name="Bay_Fragment_Title">Cardiff Bay</string>
     <string name="Castles_Fragment_Title">Castles</string>
+    <string name="Cardiff">Cardiff Castle</string>
+    <string name="Caerphilly">Caerphilly Castle</string>
+    <string name="Coch">Castell Coch</string>
+    <string name="Ogmore">Ogmore Castle</string>
+    <string name="Ruperra">Ruperra Castle</string>
+    <string name="Cardiff_Des">Cardiff Castle is one of Wales’ leading heritage attractions and a
+        site of international significance. Located within beautiful parklands at the heart of the
+        capital, Cardiff Castle’s walls and fairytale towers conceal 2,000 years of history.</string>
+    <string name="Caerphilly_Des">This stone behemoth, surrounded by a series of moats and watery
+        islands was the brainchild of Gilbert ‘the Red’ de Clare, a redheaded nobleman of Norman
+        descent. He also built the original Castell Coch, ‘Red Castle’, located the other side of
+        Caerphilly mountain.</string>
+    <string name="Coch_Des">While resting on ancient foundations, Castell Coch (Red Castle) is
+        relatively modern, the by-product of a vivid Victorian imagination, assisted by untold wealth.
+        The Middle Ages fascinated the Victorians as much as the Victorians fascinate us today. High
+        Gothic was the order of the day.</string>
+    <string name="Ogmore_Des">Substantial remains of a Norman stone-built castle, raised by the de
+        Londres family. The initial earthwork castle was established by William de Londres, soon
+        after 1100.</string>
+    <string name="Ruperra_Des">Built in 1626 by Sir Thomas Morgan, Steward to the Earl of Pembroke,
+        it was one of the first of the \'mock\' castles to be built in Wales. King Charles I spent two
+        nights at Ruperra Castle in 1645 shortly after the Battle of Naseby. Resultantly the royal
+        coat of arms was added to the decoration on the South Porch, and the present public footpath
+        from Rudry to the Castle is still known as "King's Drive."</string>
+    <string name="Cardiff_Location">CF10 3RB</string>
+    <string name="Caerphilly_Location">CF83 1JD</string>
+    <string name="Coch_Location">CF15 7JS</string>
+    <string name="Ogmore_Location">CF32 0</string>
+    <string name="Ruperra_Location">NP10 8GG</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_Travel">Hello Travel fragment</string>
@@ -16,4 +45,8 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_castles">Hello Castles fragment</string>
+    <string name="postcode">Postcode:</string>
+    <string name="locationDummyText">This will contain the address details which will launch a map app</string>
+    <string name="descriptionDummyText">This is the description of the castle. It may contain some historical information or other relevant details.</string>
+    <string name="titleDummyText">Test Castle</string>
 </resources>

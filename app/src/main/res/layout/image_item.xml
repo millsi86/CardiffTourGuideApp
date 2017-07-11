@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:gravity="center"
+        android:padding="@dimen/standardSpace"
+        android:text="@string/titleDummyText"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:clickable="false"
+        android:padding="@dimen/standardSpace"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ogmore" />
+
+    <TextView
+        android:id="@+id/item_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:paddingBottom="@dimen/standardSpace"
+        android:paddingLeft="@dimen/standardSpace"
+        android:paddingRight="@dimen/standardSpace"
+        android:text="@string/descriptionDummyText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/standardSpace">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:paddingLeft="@dimen/standardSpace"
+            android:text="@string/postcode" />
+
+        <TextView
+            android:id="@+id/item_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:paddingLeft="@dimen/halfSpace"
+            android:paddingRight="@dimen/standardSpace"
+            android:text="@string/locationDummyText" />
+
+    </LinearLayout>
+
+</LinearLayout>

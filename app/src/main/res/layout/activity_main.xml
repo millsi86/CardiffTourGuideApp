@@ -13,19 +13,6 @@
         android:layout_height="wrap_content"
         app:tabMode="scrollable" />
 
-    <TextView
-        android:id="@+id/TestText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:padding="16dp"
-        android:src="@drawable/ogmore" />
-
     <android.support.v4.view.ViewPager
         android:id="@+id/viewpager"
         android:layout_width="match_parent"
