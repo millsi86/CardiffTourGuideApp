@@ -14,10 +14,13 @@ import java.util.ArrayList;
 
 /**
  * Created by tom.mills-mock on 07/06/2017.
+ * {@link ItemAdapter} in an {@link ArrayAdapter} that can provide the layput for each list item
+ * based on teh data source, which is a list of {@link Item} objects.
  */
 
 public class ItemAdapter extends ArrayAdapter<Item> {
 
+    // create a new {@Link ItemAdapter} object.
     public ItemAdapter(Context context, ArrayList<Item> items) {
         super(context, 0, items);
     }
@@ -25,15 +28,24 @@ public class ItemAdapter extends ArrayAdapter<Item> {
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
+        // Check if an existing view is being reused, otherwise inflate the view
         View ItemView = convertView;
         if (ItemView == null) {
             ItemView = LayoutInflater.from(getContext()).inflate(R.layout.image_item, parent, false);
         }
 
-        Item currentItem = (Item) getItem(position);
+        // Get the {@link item} object located at this position in the list
+        Item currentItem = getItem(position);
 
+        //Find the View ID's
         TextView Title = (TextView) ItemView.findViewById(R.id.item_title);
+        ImageView Image = (ImageView) ItemView.findViewById(R.id.item_image);
+        TextView Description = (TextView) ItemView.findViewById(R.id.item_description);
+        TextView Location = (TextView) ItemView.findViewById(R.id.item_location);
+        TextView Postcode = (TextView) ItemView.findViewById(R.id.postcode);
 
+
+        // If statements to identify if fields have been used for the Item
         if (currentItem.hasTitle()) {
             // If an description is available, display the provided text based on the resource ID
             Title.setText(currentItem.getTitleId());
@@ -43,8 +55,6 @@ public class ItemAdapter extends ArrayAdapter<Item> {
             // Otherwise hide the TextView (set visibility to GONE)
             Title.setVisibility(View.GONE);
         }
-
-        ImageView Image = (ImageView) ItemView.findViewById(R.id.item_image);
 
         if (currentItem.hasImage()) {
             // If an image is available, display the provided image based on the resource ID
@@ -56,8 +66,6 @@ public class ItemAdapter extends ArrayAdapter<Item> {
             Image.setVisibility(View.GONE);
         }
 
-        TextView Description = (TextView) ItemView.findViewById(R.id.item_description);
-
         if (currentItem.hasDes()) {
             // If an description is available, display the provided text based on the resource ID
             Description.setText(currentItem.getDesId());
@@ -67,9 +75,6 @@ public class ItemAdapter extends ArrayAdapter<Item> {
             // Otherwise hide the TextView (set visibility to GONE)
             Description.setVisibility(View.GONE);
         }
-
-        TextView Location = (TextView) ItemView.findViewById(R.id.item_location);
-        TextView Postcode = (TextView) ItemView.findViewById(R.id.postcode);
 
         if (currentItem.hasAddress()) {
             // If an description is available, display the provided text based on the resource ID
@@ -82,7 +87,6 @@ public class ItemAdapter extends ArrayAdapter<Item> {
             Location.setVisibility(View.GONE);
             Postcode.setVisibility(View.GONE);
         }
-
 
         return ItemView;
     }

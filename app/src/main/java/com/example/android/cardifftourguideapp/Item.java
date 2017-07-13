@@ -6,13 +6,16 @@ package com.example.android.cardifftourguideapp;
 
 public class Item {
 
+    // Constant value that represents no item was provided for this item
     private static final int NO_ITEM_PROVIDED = -1;
+
+    // String resource ID declatations
     private int mTitleId = NO_ITEM_PROVIDED;
     private int mImageId = NO_ITEM_PROVIDED;
     private int mDesId = NO_ITEM_PROVIDED;
     private int mAddressId = NO_ITEM_PROVIDED;
 
-
+    // Create items with various views present
     public Item(int TitleId, int ImageId, int DesId, int AddressId) {
         mTitleId = TitleId;
         mImageId = ImageId;
@@ -30,7 +33,7 @@ public class Item {
         mImageId = ImageId;
     }
 
-
+    // method declarations for returning field ID and if ID's have been used
     public int getTitleId() {
         return mTitleId;
     }
