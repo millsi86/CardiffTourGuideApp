@@ -30,14 +30,14 @@ public class CastlesFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.text_item, container, false);
 
-        final ArrayList<Castle> castles = new ArrayList<>();
-        castles.add(new Castle(R.string.Cardiff, R.drawable.cardiff, R.string.Cardiff_Des, R.string.Cardiff_Location));
-        castles.add(new Castle(R.string.Caerphilly, R.drawable.caerphilly, R.string.Caerphilly_Des, R.string.Caerphilly_Location));
-        castles.add(new Castle(R.string.Coch, R.drawable.coch, R.string.Coch_Des, R.string.Coch_Location));
-        castles.add(new Castle(R.string.Ogmore, R.drawable.ogmore, R.string.Ogmore_Des, R.string.Ogmore_Location));
-        castles.add(new Castle(R.string.Ruperra, R.drawable.ruperra, R.string.Ruperra_Des, R.string.Ruperra_Location));
+        final ArrayList<Item> castles = new ArrayList<>();
+        castles.add(new Item(R.string.Cardiff, R.drawable.cardiff, R.string.Cardiff_Des, R.string.Cardiff_Location));
+        castles.add(new Item(R.string.Caerphilly, R.drawable.caerphilly, R.string.Caerphilly_Des, R.string.Caerphilly_Location));
+        castles.add(new Item(R.string.Coch, R.drawable.coch, R.string.Coch_Des, R.string.Coch_Location));
+        castles.add(new Item(R.string.Ogmore, R.drawable.ogmore, R.string.Ogmore_Des, R.string.Ogmore_Location));
+        castles.add(new Item(R.string.Ruperra, R.drawable.ruperra, R.string.Ruperra_Des, R.string.Ruperra_Location));
 
-        CastleAdapter adapter = new CastleAdapter(getActivity(), castles);
+        ItemAdapter adapter = new ItemAdapter(getActivity(), castles);
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 
@@ -45,9 +45,9 @@ public class CastlesFragment extends Fragment {
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-                Castle castle = castles.get(position);
-                Uri gmmIntentUri = Uri.parse("geo:0,0?q=" + getText(castle.getCastleAddressId()));
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
+                Item castle = castles.get(position);
+                Uri gmmIntentUri = Uri.parse("geo:0,0?q=" + getText(castle.getAddressId()));
                 Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
                 mapIntent.setPackage("com.google.android.apps.maps");
                 startActivity(mapIntent);

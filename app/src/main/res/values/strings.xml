@@ -1,9 +1,11 @@
 <resources>
-    <string name="app_name">CardiffTourGuideApp</string>
+    <string name="app_name">Cardiff Tour Guide App</string>
+
     <string name="Travel_Fragment_Title">Travel</string>
     <string name="StDavids_Fragment_Title">St Davids</string>
     <string name="Bay_Fragment_Title">Cardiff Bay</string>
     <string name="Castles_Fragment_Title">Castles</string>
+
     <string name="Cardiff">Cardiff Castle</string>
     <string name="Caerphilly">Caerphilly Castle</string>
     <string name="Coch">Castell Coch</string>
@@ -28,14 +30,30 @@
         nights at Ruperra Castle in 1645 shortly after the Battle of Naseby. Resultantly the royal
         coat of arms was added to the decoration on the South Porch, and the present public footpath
         from Rudry to the Castle is still known as "King's Drive."</string>
-    <string name="Cardiff_Location">CF10 3RB</string>
-    <string name="Caerphilly_Location">CF83 1JD</string>
-    <string name="Coch_Location">CF15 7JS</string>
-    <string name="Ogmore_Location">CF32 0</string>
-    <string name="Ruperra_Location">NP10 8GG</string>
+    <string name="Cardiff_Location"><u>CF10 3RB</u></string>
+    <string name="Caerphilly_Location"><u>CF83 1JD</u></string>
+    <string name="Coch_Location"><u>CF15 7JS</u></string>
+    <string name="Ogmore_Location"><u>CF32 0</u></string>
+    <string name="Ruperra_Location"><u>NP10 8GG</u></string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_Travel">Hello Travel fragment</string>
+    <string name="Cardiff_by_car_title">By Car</string>
+    <string name="Cardiff_by_Air_title">By Air</string>
+    <string name="Cardiff_by_train_title">By Train</string>
+    <string name="Cardiff_by_car_des">Cardiff is easily accessible via the M4 motorway, which runs
+        through the north of the city, making London a comfortable drive away. From the Midlands,
+        the North of England and Scotland it is a straightforward drive via the M6, M5 and M50/M4.
+        From the South and South West of England the approach is by M5 and M4. Access from West
+        Wales is by M4.</string>
+    <string name="Cardiff_by_Air_des">Cardiff Airport is 12 miles west of the city centre and 10 miles
+        from Junction 33 of the M4. The airport has direct flights to over 50 destinations and
+        connecting flights to over 800 destinations worldwide. Airlines operating from Cardiff
+        include KLM, Aer Lingus, Flybe, Vueling and Ryanair.</string>
+    <string name="Cardiff_by_train_des">Cardiff has direct rail links to many cities in the UK including
+        London, Birmingham, Manchester, Nottingham, Bristol and Southampton. The journey time from
+        London Paddington to Cardiff is just over 2 hours and leaves every 30 minutes.</string>
+    <string name="Cardiff_by_car_location">CF10 2EN</string>
+    <string name="Cardiff_by_air_location">CF62 3BD</string>
+    <string name="Cardiff_by_train_location">CF10 1EP</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_StDavids">Hello St Davids fragment</string>
@@ -43,7 +61,6 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_bay">Hello Bay fragment</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_castles">Hello Castles fragment</string>
     <string name="postcode">Postcode:</string>
     <string name="locationDummyText">This will contain the address details which will launch a map app</string>

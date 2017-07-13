@@ -8,7 +8,7 @@
         android:id="@+id/item_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:clickable="false"
+        android:clickable="true"
         android:gravity="center"
         android:padding="@dimen/standardSpace"
         android:text="@string/titleDummyText"
@@ -18,7 +18,7 @@
         android:id="@+id/item_image"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:clickable="false"
+        android:clickable="true"
         android:padding="@dimen/standardSpace"
         android:scaleType="fitCenter"
         android:src="@drawable/ogmore" />
@@ -27,7 +27,7 @@
         android:id="@+id/item_description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:clickable="false"
+        android:clickable="true"
         android:paddingBottom="@dimen/standardSpace"
         android:paddingLeft="@dimen/standardSpace"
         android:paddingRight="@dimen/standardSpace"
@@ -40,17 +40,17 @@
         android:paddingBottom="@dimen/standardSpace">
 
         <TextView
+            android:id="@+id/postcode"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:clickable="false"
             android:paddingLeft="@dimen/standardSpace"
             android:text="@string/postcode" />
 
         <TextView
             android:id="@+id/item_location"
+            style="@style/Link"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:clickable="true"
             android:paddingLeft="@dimen/halfSpace"
             android:paddingRight="@dimen/standardSpace"
             android:text="@string/locationDummyText" />
