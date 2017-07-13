@@ -29,6 +29,11 @@ public class Item {
         mAddressId = AddressId;
     }
 
+    public Item(int TitleId, int DesId) {
+        mTitleId = TitleId;
+        mDesId = DesId;
+    }
+
     public Item(int ImageId) {
         mImageId = ImageId;
     }

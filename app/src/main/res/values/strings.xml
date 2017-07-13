@@ -55,14 +55,65 @@
     <string name="Cardiff_by_air_location">CF62 3BD</string>
     <string name="Cardiff_by_train_location">CF10 1EP</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_StDavids">Hello St Davids fragment</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_bay">Hello Bay fragment</string>
+    <string name="StDavids_title">St David\'s   /   Dewi Sant</string>
+    <string name="StDavids_overview_description">With over 150 shops, restaurants and cafes, it\'s a
+    great place to be for shopping, dining, or seeing the latest movie releases</string>
+    <string name="StDavids_overview_location">CF10 2EN</string>
+    <string name="JL_title">John Lewis</string>
+    <string name="JL_des">John Lewis is a premium department store stocking a range of electricals,
+        home products and fashion. Never Knowingly Undersold on price, quality and service.</string>
+    <string name="Hollister_title">Hollister</string>
+    <string name="Hollister_des">HCo. - Hollister is the fantasy of Southern California. It is the
+        feeling of chilling on the beach with your friends. Young, spirited, with a sense of humour,
+        Hollister never takes itself too seriously. The laidback lifestyle and wholesome image
+        combine to give Hollister an energy that’s effortlessly cool. Hollister brings Southern
+        California to the world.</string>
+    <string name="Accessorize_title">Accessorize</string>
+    <string name="Accessorize_des">In 1984, Accessorize stylishly arrived on the British high street
+        as a pioneering stand-alone accessory wonderland. From starting life in London’s Covent
+        Garden Piazza as an accessory emporium, Accessorize has grown into a high street accessories
+        phenomenon, boasting a massive 500 stores in over 50 countries.</string>
+    <string name="AllSaints_title">AllSaints</string>
+    <string name="AllSaints_des">AllSaints is a British fashion label that captures the creative
+        attitude and independent spirit of East London through its menswear, womenswear and
+        accessories. From the brand’s iconic biker jackets to crafted knitwear and premium leather
+        pieces, AllSaints offers a consistent focus on innovation and design to create original
+        and desirable collections season after season online and in-store.</string>
 
-    <string name="hello_castles">Hello Castles fragment</string>
+
+    <string name="Bay_title">Cardiff Bay</string>
+    <string name="Bay_des">Europe\'s Largest Waterfront Development. For a great day out visit
+        with Restaurants, Bars, Hotels, Attractions, Tours and much more</string>
+    <string name="Bay_location">CF10 5BS</string>
+    <string name="Barrage_title">Cardiff Bay Barrage</string>
+    <string name="Barrage_des">The Cardiff Bay Barrage itself is 1.1km long and extends from Cardiff
+        docks in the north to Penarth in the south. This major civil engineering construction project
+        subsequently led to the impoundment of the bay that has over 13km of waterfront. The barrage
+        includes locks and bridges, sluice gates, and a fish pass. The landscaped embankment is a
+        public open space where visitors can walk and picnic with excellent views out over the sea
+        and the bay.</string>
+    <string name="Norwegian_Church_title">The Norwegian Church</string>
+    <string name="Norwegian_Church_des">The Norwegian Church Arts Centre is one of the landmark
+        buildings situated in Cardiff Bay and has panoramic views over the waterfront. Formerly a
+        Church for Norwegian Sailors, the iconic building dates back to the industrial revolution,
+        when Cardiff Docks was the world’s greatest exporter of coal</string>
+    <string name="Doctor_Who_title">Doctor Who Experience</string>
+    <string name="Doctor_Who_des">Star in your very own Doctor Who Experience adventure. Join the
+        Twelfth Doctor on a spectacular, interactive adventure through space and time. Beginning at
+        the Gallifrey Museum, embark on a journey to the heart of the TARDIS and help the Doctor
+        grapple with a threat that could destroy the universe forever.</string>
+    <string name="Techniquest_title">Techniquest</string>
+    <string name="Techniquest_des">Techniquest is the UK’s longest established science centre.
+        Founded in 1985, by Professor John Beetlestone and his colleagues from Cardiff University.</string>
+    <string name="Millennium_Centre_title">Wales Millennium Centre</string>
+    <string name="Millennium_Centre_des">Wales Millennium Centre is Wales’ national home for the
+        performing arts in Cardiff Bay. One of the UK’s top cultural attractions and home to eight
+        resident partners, this Welsh landmark stages musicals, opera, ballet, circus and
+        contemporary dance alongside the UK’s largest programme of free performances.</string>
+
     <string name="postcode">Postcode:</string>
+
     <string name="locationDummyText">This will contain the address details which will launch a map app</string>
     <string name="descriptionDummyText">This is the description of the castle. It may contain some historical information or other relevant details.</string>
     <string name="titleDummyText">Test Castle</string>
